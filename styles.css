@@ -1,0 +1,37 @@
+body {
+    /* sets background photo (stays in the same place even when scrolling) */
+    background: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.img-sizing {
+    /* crude way of trying to standardize picture sizes */
+    max-height: 400px;
+}
+
+.enlarge-on-hover {
+    /* item parameters before hover */
+    scale: 1;
+    position: relative;
+}
+
+.enlarge-on-hover:hover {
+    /* smoothly enlarges items on hover */
+    scale: 1.2;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.item-name-size p {
+    /* changes font size for paragraph elements */
+    font-size: 20px;
+}
+
+.image-small-scale {
+    /* settings for small logos */
+    max-width: 50px;
+    max-height: auto;
+}
